@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE0091BA16D1BE7700DC6E49 /* FRETypeUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = CE0091B816D1BE7700DC6E49 /* FRETypeUtils.h */; };
+		CE0091BB16D1BE7700DC6E49 /* FRETypeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0091B916D1BE7700DC6E49 /* FRETypeUtils.m */; };
+		CE0091BE16D1C0EB00DC6E49 /* ANELZMAExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = CE0091BC16D1C0EB00DC6E49 /* ANELZMAExtractor.h */; };
+		CE0091BF16D1C0EB00DC6E49 /* ANELZMAExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0091BD16D1C0EB00DC6E49 /* ANELZMAExtractor.m */; };
+		CE0091EC16D2253F00DC6E49 /* 7zBuf.c in Sources */ = {isa = PBXBuildFile; fileRef = CE00919016D1BE2200DC6E49 /* 7zBuf.c */; };
+		CE0091ED16D2253F00DC6E49 /* 7zBuf2.c in Sources */ = {isa = PBXBuildFile; fileRef = CE00919216D1BE2200DC6E49 /* 7zBuf2.c */; };
+		CE0091EE16D2256000DC6E49 /* 7zDec.c in Sources */ = {isa = PBXBuildFile; fileRef = CE00919316D1BE2200DC6E49 /* 7zDec.c */; };
+		CE0091EF16D2256000DC6E49 /* 7zFile.c in Sources */ = {isa = PBXBuildFile; fileRef = CE00919416D1BE2200DC6E49 /* 7zFile.c */; };
+		CE0091F016D2259800DC6E49 /* 7zIn.c in Sources */ = {isa = PBXBuildFile; fileRef = CE00919616D1BE2200DC6E49 /* 7zIn.c */; };
+		CE0091F116D2259800DC6E49 /* 7zStream.c in Sources */ = {isa = PBXBuildFile; fileRef = CE00919716D1BE2200DC6E49 /* 7zStream.c */; };
+		CE0091F216D2259800DC6E49 /* Alloc.c in Sources */ = {isa = PBXBuildFile; fileRef = CE00919916D1BE2200DC6E49 /* Alloc.c */; };
+		CE0091F316D2259800DC6E49 /* CpuArch.c in Sources */ = {isa = PBXBuildFile; fileRef = CE00919B16D1BE2200DC6E49 /* CpuArch.c */; };
+		CE0091F416D2259800DC6E49 /* Delta.c in Sources */ = {isa = PBXBuildFile; fileRef = CE00919D16D1BE2200DC6E49 /* Delta.c */; };
+		CE0091F516D2259800DC6E49 /* Lzma2Dec.c in Sources */ = {isa = PBXBuildFile; fileRef = CE0091A016D1BE2200DC6E49 /* Lzma2Dec.c */; };
+		CE0091F616D2259800DC6E49 /* LzmaDec.c in Sources */ = {isa = PBXBuildFile; fileRef = CE0091A216D1BE2200DC6E49 /* LzmaDec.c */; };
+		CE0091F816D2259800DC6E49 /* Ppmd7.c in Sources */ = {isa = PBXBuildFile; fileRef = CE0091A716D1BE2200DC6E49 /* Ppmd7.c */; };
+		CE0091F916D2259800DC6E49 /* Ppmd7Dec.c in Sources */ = {isa = PBXBuildFile; fileRef = CE0091A916D1BE2200DC6E49 /* Ppmd7Dec.c */; };
+		CE0091FA16D2259800DC6E49 /* Ppmd8.c in Sources */ = {isa = PBXBuildFile; fileRef = CE0091AA16D1BE2200DC6E49 /* Ppmd8.c */; };
+		CE0091FB16D2259800DC6E49 /* Ppmd8Dec.c in Sources */ = {isa = PBXBuildFile; fileRef = CE0091AC16D1BE2200DC6E49 /* Ppmd8Dec.c */; };
+		CE0091FC16D2259800DC6E49 /* 7zAlloc.c in Sources */ = {isa = PBXBuildFile; fileRef = CE0091B116D1BE2200DC6E49 /* 7zAlloc.c */; };
+		CE0091FE16D2259800DC6E49 /* 7zMain.c in Sources */ = {isa = PBXBuildFile; fileRef = CE0091B316D1BE2200DC6E49 /* 7zMain.c */; };
+		CE3CA49515587E4800F63458 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3CA49415587E4800F63458 /* Foundation.framework */; };
+		CE3CA49B15587E4800F63458 /* ANE7z.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3CA49A15587E4800F63458 /* ANE7z.m */; };
+		CEE8BDC8155AF6D500A18A74 /* FlashRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = CEE8BDC6155AF6D500A18A74 /* FlashRuntimeExtensions.h */; };
+		CEE8BDC9155AF6D500A18A74 /* ANE7zEventMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = CEE8BDC7155AF6D500A18A74 /* ANE7zEventMessages.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE00918F16D1BE2200DC6E49 /* 7z.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 7z.h; sourceTree = "<group>"; };
+		CE00919016D1BE2200DC6E49 /* 7zBuf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 7zBuf.c; sourceTree = "<group>"; };
+		CE00919116D1BE2200DC6E49 /* 7zBuf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 7zBuf.h; sourceTree = "<group>"; };
+		CE00919216D1BE2200DC6E49 /* 7zBuf2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 7zBuf2.c; sourceTree = "<group>"; };
+		CE00919316D1BE2200DC6E49 /* 7zDec.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 7zDec.c; sourceTree = "<group>"; };
+		CE00919416D1BE2200DC6E49 /* 7zFile.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 7zFile.c; sourceTree = "<group>"; };
+		CE00919516D1BE2200DC6E49 /* 7zFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 7zFile.h; sourceTree = "<group>"; };
+		CE00919616D1BE2200DC6E49 /* 7zIn.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 7zIn.c; sourceTree = "<group>"; };
+		CE00919716D1BE2200DC6E49 /* 7zStream.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 7zStream.c; sourceTree = "<group>"; };
+		CE00919816D1BE2200DC6E49 /* 7zVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 7zVersion.h; sourceTree = "<group>"; };
+		CE00919916D1BE2200DC6E49 /* Alloc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Alloc.c; sourceTree = "<group>"; };
+		CE00919A16D1BE2200DC6E49 /* Alloc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Alloc.h; sourceTree = "<group>"; };
+		CE00919B16D1BE2200DC6E49 /* CpuArch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = CpuArch.c; sourceTree = "<group>"; };
+		CE00919C16D1BE2200DC6E49 /* CpuArch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CpuArch.h; sourceTree = "<group>"; };
+		CE00919D16D1BE2200DC6E49 /* Delta.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Delta.c; sourceTree = "<group>"; };
+		CE00919E16D1BE2200DC6E49 /* Delta.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Delta.h; sourceTree = "<group>"; };
+		CE00919F16D1BE2200DC6E49 /* LzHash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LzHash.h; sourceTree = "<group>"; };
+		CE0091A016D1BE2200DC6E49 /* Lzma2Dec.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Lzma2Dec.c; sourceTree = "<group>"; };
+		CE0091A116D1BE2200DC6E49 /* Lzma2Dec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lzma2Dec.h; sourceTree = "<group>"; };
+		CE0091A216D1BE2200DC6E49 /* LzmaDec.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LzmaDec.c; sourceTree = "<group>"; };
+		CE0091A316D1BE2200DC6E49 /* LzmaDec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LzmaDec.h; sourceTree = "<group>"; };
+		CE0091A616D1BE2200DC6E49 /* Ppmd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ppmd.h; sourceTree = "<group>"; };
+		CE0091A716D1BE2200DC6E49 /* Ppmd7.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Ppmd7.c; sourceTree = "<group>"; };
+		CE0091A816D1BE2200DC6E49 /* Ppmd7.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ppmd7.h; sourceTree = "<group>"; };
+		CE0091A916D1BE2200DC6E49 /* Ppmd7Dec.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Ppmd7Dec.c; sourceTree = "<group>"; };
+		CE0091AA16D1BE2200DC6E49 /* Ppmd8.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Ppmd8.c; sourceTree = "<group>"; };
+		CE0091AB16D1BE2200DC6E49 /* Ppmd8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ppmd8.h; sourceTree = "<group>"; };
+		CE0091AC16D1BE2200DC6E49 /* Ppmd8Dec.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Ppmd8Dec.c; sourceTree = "<group>"; };
+		CE0091AD16D1BE2200DC6E49 /* RotateDefs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotateDefs.h; sourceTree = "<group>"; };
+		CE0091AE16D1BE2200DC6E49 /* Types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
+		CE0091B116D1BE2200DC6E49 /* 7zAlloc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 7zAlloc.c; sourceTree = "<group>"; };
+		CE0091B216D1BE2200DC6E49 /* 7zAlloc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = 7zAlloc.h; sourceTree = "<group>"; };
+		CE0091B316D1BE2200DC6E49 /* 7zMain.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = 7zMain.c; sourceTree = "<group>"; };
+		CE0091B816D1BE7700DC6E49 /* FRETypeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRETypeUtils.h; sourceTree = "<group>"; };
+		CE0091B916D1BE7700DC6E49 /* FRETypeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRETypeUtils.m; sourceTree = "<group>"; };
+		CE0091BC16D1C0EB00DC6E49 /* ANELZMAExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANELZMAExtractor.h; sourceTree = "<group>"; };
+		CE0091BD16D1C0EB00DC6E49 /* ANELZMAExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANELZMAExtractor.m; sourceTree = "<group>"; };
+		CE3CA49115587E4800F63458 /* libANE7z.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libANE7z.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3CA49415587E4800F63458 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE3CA49815587E4800F63458 /* ANE7z-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ANE7z-Prefix.pch"; sourceTree = "<group>"; };
+		CE3CA49A15587E4800F63458 /* ANE7z.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANE7z.m; sourceTree = "<group>"; };
+		CEE8BDC6155AF6D500A18A74 /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
+		CEE8BDC7155AF6D500A18A74 /* ANE7zEventMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANE7zEventMessages.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE3CA48E15587E4800F63458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3CA49515587E4800F63458 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE00918E16D1BE2200DC6E49 /* LZMASDK */ = {
+			isa = PBXGroup;
+			children = (
+				CE00918F16D1BE2200DC6E49 /* 7z.h */,
+				CE00919016D1BE2200DC6E49 /* 7zBuf.c */,
+				CE00919116D1BE2200DC6E49 /* 7zBuf.h */,
+				CE00919216D1BE2200DC6E49 /* 7zBuf2.c */,
+				CE00919316D1BE2200DC6E49 /* 7zDec.c */,
+				CE00919416D1BE2200DC6E49 /* 7zFile.c */,
+				CE00919516D1BE2200DC6E49 /* 7zFile.h */,
+				CE00919616D1BE2200DC6E49 /* 7zIn.c */,
+				CE00919716D1BE2200DC6E49 /* 7zStream.c */,
+				CE00919816D1BE2200DC6E49 /* 7zVersion.h */,
+				CE00919916D1BE2200DC6E49 /* Alloc.c */,
+				CE00919A16D1BE2200DC6E49 /* Alloc.h */,
+				CE00919B16D1BE2200DC6E49 /* CpuArch.c */,
+				CE00919C16D1BE2200DC6E49 /* CpuArch.h */,
+				CE00919D16D1BE2200DC6E49 /* Delta.c */,
+				CE00919E16D1BE2200DC6E49 /* Delta.h */,
+				CE00919F16D1BE2200DC6E49 /* LzHash.h */,
+				CE0091A016D1BE2200DC6E49 /* Lzma2Dec.c */,
+				CE0091A116D1BE2200DC6E49 /* Lzma2Dec.h */,
+				CE0091A216D1BE2200DC6E49 /* LzmaDec.c */,
+				CE0091A316D1BE2200DC6E49 /* LzmaDec.h */,
+				CE0091A616D1BE2200DC6E49 /* Ppmd.h */,
+				CE0091A716D1BE2200DC6E49 /* Ppmd7.c */,
+				CE0091A816D1BE2200DC6E49 /* Ppmd7.h */,
+				CE0091A916D1BE2200DC6E49 /* Ppmd7Dec.c */,
+				CE0091AA16D1BE2200DC6E49 /* Ppmd8.c */,
+				CE0091AB16D1BE2200DC6E49 /* Ppmd8.h */,
+				CE0091AC16D1BE2200DC6E49 /* Ppmd8Dec.c */,
+				CE0091AD16D1BE2200DC6E49 /* RotateDefs.h */,
+				CE0091AE16D1BE2200DC6E49 /* Types.h */,
+				CE0091AF16D1BE2200DC6E49 /* Util */,
+			);
+			path = LZMASDK;
+			sourceTree = "<group>";
+		};
+		CE0091AF16D1BE2200DC6E49 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				CE0091B016D1BE2200DC6E49 /* 7z */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		CE0091B016D1BE2200DC6E49 /* 7z */ = {
+			isa = PBXGroup;
+			children = (
+				CE0091B116D1BE2200DC6E49 /* 7zAlloc.c */,
+				CE0091B216D1BE2200DC6E49 /* 7zAlloc.h */,
+				CE0091B316D1BE2200DC6E49 /* 7zMain.c */,
+			);
+			path = 7z;
+			sourceTree = "<group>";
+		};
+		CE3CA48615587E4800F63458 = {
+			isa = PBXGroup;
+			children = (
+				CE00918E16D1BE2200DC6E49 /* LZMASDK */,
+				CE3CA49615587E4800F63458 /* ANE7z */,
+				CE3CA49315587E4800F63458 /* Frameworks */,
+				CE3CA49215587E4800F63458 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE3CA49215587E4800F63458 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE3CA49115587E4800F63458 /* libANE7z.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE3CA49315587E4800F63458 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE3CA49415587E4800F63458 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE3CA49615587E4800F63458 /* ANE7z */ = {
+			isa = PBXGroup;
+			children = (
+				CE0091B816D1BE7700DC6E49 /* FRETypeUtils.h */,
+				CE0091B916D1BE7700DC6E49 /* FRETypeUtils.m */,
+				CEE8BDC6155AF6D500A18A74 /* FlashRuntimeExtensions.h */,
+				CEE8BDC7155AF6D500A18A74 /* ANE7zEventMessages.h */,
+				CE3CA49A15587E4800F63458 /* ANE7z.m */,
+				CE3CA49715587E4800F63458 /* Supporting Files */,
+				CE0091BC16D1C0EB00DC6E49 /* ANELZMAExtractor.h */,
+				CE0091BD16D1C0EB00DC6E49 /* ANELZMAExtractor.m */,
+			);
+			path = ANE7z;
+			sourceTree = "<group>";
+		};
+		CE3CA49715587E4800F63458 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE3CA49815587E4800F63458 /* ANE7z-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CE3CA48F15587E4800F63458 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE8BDC8155AF6D500A18A74 /* FlashRuntimeExtensions.h in Headers */,
+				CEE8BDC9155AF6D500A18A74 /* ANE7zEventMessages.h in Headers */,
+				CE0091BA16D1BE7700DC6E49 /* FRETypeUtils.h in Headers */,
+				CE0091BE16D1C0EB00DC6E49 /* ANELZMAExtractor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CE3CA49015587E4800F63458 /* ANE7z */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE3CA49E15587E4800F63458 /* Build configuration list for PBXNativeTarget "ANE7z" */;
+			buildPhases = (
+				CE3CA48D15587E4800F63458 /* Sources */,
+				CE3CA48E15587E4800F63458 /* Frameworks */,
+				CE3CA48F15587E4800F63458 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ANE7z;
+			productName = ANE7z;
+			productReference = CE3CA49115587E4800F63458 /* libANE7z.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE3CA48815587E4800F63458 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = xperiments;
+			};
+			buildConfigurationList = CE3CA48B15587E4800F63458 /* Build configuration list for PBXProject "ANE7z" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE3CA48615587E4800F63458;
+			productRefGroup = CE3CA49215587E4800F63458 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE3CA49015587E4800F63458 /* ANE7z */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE3CA48D15587E4800F63458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0091F016D2259800DC6E49 /* 7zIn.c in Sources */,
+				CE0091F116D2259800DC6E49 /* 7zStream.c in Sources */,
+				CE0091F216D2259800DC6E49 /* Alloc.c in Sources */,
+				CE0091F316D2259800DC6E49 /* CpuArch.c in Sources */,
+				CE0091F416D2259800DC6E49 /* Delta.c in Sources */,
+				CE0091F516D2259800DC6E49 /* Lzma2Dec.c in Sources */,
+				CE0091F616D2259800DC6E49 /* LzmaDec.c in Sources */,
+				CE0091F816D2259800DC6E49 /* Ppmd7.c in Sources */,
+				CE0091F916D2259800DC6E49 /* Ppmd7Dec.c in Sources */,
+				CE0091FA16D2259800DC6E49 /* Ppmd8.c in Sources */,
+				CE0091FB16D2259800DC6E49 /* Ppmd8Dec.c in Sources */,
+				CE0091FC16D2259800DC6E49 /* 7zAlloc.c in Sources */,
+				CE0091FE16D2259800DC6E49 /* 7zMain.c in Sources */,
+				CE0091EE16D2256000DC6E49 /* 7zDec.c in Sources */,
+				CE0091EF16D2256000DC6E49 /* 7zFile.c in Sources */,
+				CE0091EC16D2253F00DC6E49 /* 7zBuf.c in Sources */,
+				CE0091ED16D2253F00DC6E49 /* 7zBuf2.c in Sources */,
+				CE3CA49B15587E4800F63458 /* ANE7z.m in Sources */,
+				CE0091BB16D1BE7700DC6E49 /* FRETypeUtils.m in Sources */,
+				CE0091BF16D1C0EB00DC6E49 /* ANELZMAExtractor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE3CA49C15587E4800F63458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE3CA49D15587E4800F63458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE3CA49F15587E4800F63458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ANE7z.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ANE7z/ANE7z-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CE3CA4A015587E4800F63458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ANE7z.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ANE7z/ANE7z-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE3CA48B15587E4800F63458 /* Build configuration list for PBXProject "ANE7z" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3CA49C15587E4800F63458 /* Debug */,
+				CE3CA49D15587E4800F63458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE3CA49E15587E4800F63458 /* Build configuration list for PBXNativeTarget "ANE7z" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3CA49F15587E4800F63458 /* Debug */,
+				CE3CA4A015587E4800F63458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE3CA48815587E4800F63458 /* Project object */;
+}
